@@ -450,7 +450,7 @@ def main_ui():
                     st.error("Nessun modello disponibile. Installa almeno un modello:") 
                 else:
                     st.error("No model available. Please install at least one model:")
-                st.code("ollama pull llama2")
+                st.code("ollama pull llama3.2")
                 st.stop()
     
             selected_model = st.selectbox(
