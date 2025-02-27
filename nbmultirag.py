@@ -49,7 +49,8 @@ translations = {
         "whisperlang":"it",
         "creabutton":"Crea",
         "docpath":"Percorso Documenti",
-        "processedfile":"File processato ed il contenuto è stato inviato nella chat!"
+        "processedfile":"File processato ed il contenuto è stato inviato nella chat!",
+		"querychat":"Scrivi la tua domanda:"
     },
     "English": {
         "new_chat": "🆕 New Chat",
@@ -73,7 +74,8 @@ translations = {
         "whisperlang":"en",
         "creabutton":"Make",
         "docpath":"Documents path",
-        "processedfile":"File processed and content has been sent to chat!"
+        "processedfile":"File processed and content has been sent to chat!",
+		"querychat":"Your query:"
     }
 }
 
@@ -447,7 +449,7 @@ def main_ui():
                 if language=="Italian":
                     st.error("Nessun modello disponibile. Installa almeno un modello:") 
                 else:
-                    st.error("No templates available. Please install at least one template:")
+                    st.error("No model available. Please install at least one model:")
                 st.code("ollama pull llama2")
                 st.stop()
     
@@ -565,7 +567,7 @@ def main_ui():
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
-    if prompt := st.chat_input("Scrivi la tua domanda..."):
+    if prompt := st.chat_input(t("querychat")):
         st.session_state.messages.append({"role": "user", "content": prompt})
         
         with st.chat_message("user"):
