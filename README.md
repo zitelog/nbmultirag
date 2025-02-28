@@ -1,4 +1,5 @@
 # NbMultiRag - un GPT tutto in LOCALE  
+###  ---------------- I tuoi dati rimangono sul tuo computer ---------------   
 ## ITALIANO  
 Un framework in Italiano ed Inglese, che permette di chattare con i propri documenti in RAG, anche multimediali (audio, video, immagini e OCR).  
 Il framework è una GUI per chattare con un modello GPT scaricato da OLLAMA, si consiglia LLAMA 3.2 (2Gb) perfettamente performante anche su macchine  
