@@ -1,4 +1,14 @@
-# NbMultiRag - un GPT tutto in LOCALE  
+<table border="0">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/1f43e592-a560-4e46-90c9-03322d3e233d" width="90" height="90" /> 
+    </td>
+    <td>
+       <h1><b>NbMultiRag - un GPT tutto in LOCALE</b></h1>
+    </td>
+  </tr>
+</table>
+ 
 ###  ---------------- I tuoi dati rimangono sul tuo computer ---------------   
 ## ITALIANO  
 Un framework in Italiano ed Inglese, che permette di chattare con i propri documenti in RAG, anche multimediali (audio, video, immagini e OCR).  
