@@ -50,7 +50,7 @@ translations = {
         "creabutton":"Crea",
         "docpath":"Percorso Documenti",
         "processedfile":"File processato ed il contenuto è stato inviato nella chat!",
-		"querychat":"Scrivi la tua domanda:"
+        "querychat":"Scrivi la tua domanda:"
     },
     "English": {
         "new_chat": "🆕 New Chat",
@@ -63,7 +63,7 @@ translations = {
         "browse": "Browse",
         "no_documents": "No documents available",
         "searching": "Analyzing...",
-		"new_workspace": "Make a new workspace",
+        "new_workspace": "Make a new workspace",
         "updating": "Updating...",
         "activeworkspace":"Active workspace",
         "numberresult":"Number of results in search",
@@ -75,7 +75,7 @@ translations = {
         "creabutton":"Make",
         "docpath":"Documents path",
         "processedfile":"File processed and content has been sent to chat!",
-		"querychat":"Your query:"
+        "querychat":"Your query:"
     }
 }
 
@@ -428,7 +428,13 @@ def update_index(input_dir, workspace, config):
 
 # Interfaccia utente
 def main_ui():
-    st.title("🧠 NBMultiRAG")
+
+    col1, mid, col2 = st.columns([5,1,20])
+    with col1:
+        st.image("nbmultirag.jpg")
+    with col2:
+        st.title(" NBMultiRAG")
+
     with st.sidebar:
         st.header(t("workspace_management"))
         
