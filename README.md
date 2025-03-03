@@ -18,8 +18,7 @@
 <a name="ITALIANO"></a>  
 ## ITALIANO
 Un framework in Italiano ed Inglese, che permette di chattare con i propri documenti in RAG, anche multimediali (audio, video, immagini e OCR).  
-Il framework è una GUI per chattare con un modello GPT scaricato da OLLAMA, si consiglia LLAMA 3.2 (2Gb) perfettamente performante anche su macchine  
-medie.  
+Il framework è una GUI per chattare con un modello GPT scaricato da OLLAMA, si consiglia LLAMA 3.2 (2Gb) perfettamente performante anche su macchine medie.  
 Inoltre, bisogna installare il software Tesseract, per il riconoscimento OCR, si consiglia di scegliere le lingue italiano ed inglese durante l'istallazione.  
 NBMultiRag, permette di:
 1) Chattare col modello senza RAG.
