@@ -7,10 +7,13 @@
        <h1><b>NbMultiRag - un GPT tutto in LOCALE</b></h1>
     </td>
   </tr>
-</table>
- 
+</table><br />  
+
+[ITALIANO](#ITALIANO)  -  [ENGLISH](#ENGLISH)  
+
 ###  ---------------- I tuoi dati rimangono sul tuo computer ---------------   
-## ITALIANO  
+<a name="ITALIANO"></a>  
+## ITALIANO
 Un framework in Italiano ed Inglese, che permette di chattare con i propri documenti in RAG, anche multimediali (audio, video, immagini e OCR).  
 Il framework è una GUI per chattare con un modello GPT scaricato da OLLAMA, si consiglia LLAMA 3.2 (2Gb) perfettamente performante anche su macchine  
 medie.  
@@ -39,6 +42,51 @@ NBMultiRag, permette di:
 2) copia tutto il contenuto di questo repository, eccetto il file ZIP che contiene il compilato.
 3) crea un enviroment Python: python -m venv nbmultirag
 4) Attivare l'enviroment (per Windows: nbmultirag/Scripts/activate)
+5) pip install -r requirements
+6) streamlit run nbmultirag.py
+
+<table border="0">
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/1f43e592-a560-4e46-90c9-03322d3e233d" width="90" height="90" />
+</td>
+<td>
+<h1><b>NbMultiRag - a GPT all LOCAL</b></h1>
+</td>
+</tr>
+
+</table>
+
+### ---------------- Your data remains on your computer ---------------  
+ 
+# ENGLISH <a id='ENGLISH'></a>
+A framework in Italian and English, which allows you to chat with your documents in RAG, including multimedia (audio, video, images and OCR).
+The framework is a GUI to chat with a GPT model downloaded from OLLAMA, we recommend LLAMA 3.2 (2Gb) which performs perfectly even on medium-sized machines.
+In addition, you need to install the Tesseract software, for OCR recognition, we recommend choosing Italian and English during installation.
+NBMultiRag, allows you to:
+1) Chat with the model without RAG.
+2) Create custom and configurable workspaces.
+3) Index a folder of documents of various types for the RAG.
+4) Query the system, which will transcribe the audio and video in the documents, perform OCR on the images and also describe 10 frames equally distributed in the video.
+5) You can also send a single file at a time in the chat, via upload, and the system will describe it.
+6) The system only needs an Internet connection at launch to download the models from HuggingFace, then you can also disconnect the computer.
+
+## INSTRUCTIONS FOR WINDOWS SYSTEMS
+
+1) Run the install.bat file
+2) In the framework follow the prompts (e.g. download a template).
+3) Create a workspace
+4) Choose an embedder (by default there is bert-base-italian-uncased for Italian and bert-base-uncased for English.
+5) Add a folder that contains the documents to be indexed.
+6) Update the index.
+7) CHAT
+8) The program downloads the files to C:\Users\YOUR_USER_NAME\.cache\huggingface\hub: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
+
+## For those who want to use Python:
+1) create the nbmultirag folder
+2) copy all the contents of this repository, except the ZIP file that contains the compiled file.
+3) create a Python environment: python -m venv nbmultirag
+4) Activate the environment (for Windows: nbmultirag/Scripts/activate)
 5) pip install -r requirements
 6) streamlit run nbmultirag.py
 
