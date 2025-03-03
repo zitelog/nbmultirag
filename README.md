@@ -21,16 +21,28 @@ NBMultiRag, permette di:
 3) Indicizzare per il RAG una cartella di documenti di varia tipologia.
 4) Interrogare il sistema, che provvederà a trascrivere gli audio e video presenti nei documenti, fare OCR sulle immagini e pure descrivere 10 frame equamente distributi nel video.
 5) Si può anche inviare nella chat, tramite upload, un singolo file alla volta ed il sistema provvederà a descriverlo.
+6) Al sistema serve la connessione alla rete Internet solo al lancio per scaricare i modelli da HuggingFace, poi si può anche sconnettere il computer.
 
 ## ISTRUZIONI PER SISTEMI WINDOWS  
 
-1) Lanciare il file START.bat.
+1) Lanciare il file install.bat
 2) Nel framework seguire gli avvisi (es. scaricare un modello).
 3) Creare un workspace
 4) Scegliere un embedder (di default c'è bert-base-italian-uncased per l'Italiano e bert-base-uncased per l'Inglese.
 5) Aggiungere una cartella che contiene i documenti da indicizzare.
 6) Aggiornare l'indice.
 7) CHATTARE
+8) Il programma scarica nella C:\Users\YOUR_USER_NAME\.cache\huggingface\hub i file: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
+
+## Per chi vuole usare Python:  
+1) crea la cartella nbmultirag
+2) copia tutto il contenuto di questo repository, eccetto il file ZIP che contiene il compilato.
+3) crea un enviroment Python: python -m venv nbmultirag
+4) Attivare l'enviroment (per Windows: nbmultirag/Scripts/activate)
+5) pip install -r requirements
+6) streamlit run nbmultirag.py
+
+
 
 
 
