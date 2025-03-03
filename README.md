@@ -9,7 +9,7 @@
   </tr>
 </table><br />  
 
-[ITALIANO](#ITALIANO)  -  [ENGLISH](#ENGLISH)  
+[ITALIAN](#ITALIANO)  -  [ENGLISH](#ENGLISH)  
 
 ###  ---------------- I tuoi dati rimangono sul tuo computer ---------------   
 <a name="ITALIANO"></a>  
