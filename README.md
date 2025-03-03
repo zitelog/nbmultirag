@@ -27,6 +27,7 @@ NBMultiRag, permette di:
 4) Interrogare il sistema, che provvederà a trascrivere gli audio e video presenti nei documenti, fare OCR sulle immagini e pure descrivere 10 frame equamente distributi nel video.
 5) Si può anche inviare nella chat, tramite upload, un singolo file alla volta ed il sistema provvederà a descriverlo.
 6) Al sistema serve la connessione alla rete Internet solo al lancio per scaricare i modelli da HuggingFace, poi si può anche sconnettere il computer.
+7) Se si hanno problemi col Tkinter, in Windows il pacchetto arriva con l'istallazione di Python (https://www.python.org/)
 
 ## ISTRUZIONI PER SISTEMI WINDOWS  
 
@@ -72,6 +73,7 @@ NBMultiRag, allows you to:
 4) Query the system, which will transcribe the audio and video in the documents, perform OCR on the images and also describe 10 frames equally distributed in the video.
 5) You can also send a single file at a time in the chat, via upload, and the system will describe it.
 6) The system only needs an Internet connection at launch to download the models from HuggingFace, then you can also disconnect the computer.
+7) If you have problems with Tkinter, in Windows the package comes with the Python installation (https://www.python.org/)
 
 ## INSTRUCTIONS FOR WINDOWS SYSTEMS
 
