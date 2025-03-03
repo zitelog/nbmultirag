@@ -1,4 +1,4 @@
-<table border="0">
+<table border="0"align="center">
   <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/1f43e592-a560-4e46-90c9-03322d3e233d" width="90" height="90" /> 
@@ -7,7 +7,8 @@
        <h1><b>NbMultiRag - un GPT tutto in LOCALE</b></h1>
     </td>
   </tr>
-</table><br />  
+</table>  
+<p align="center">by <a href="https://nannibassetti.com" target="_blank">Nanni Bassetti</a></p>   
 
 [ITALIAN](#ITALIANO)  -  [ENGLISH](#ENGLISH)  
 
@@ -45,7 +46,7 @@ NBMultiRag, permette di:
 5) pip install -r requirements
 6) streamlit run nbmultirag.py
 
-<table border="0">
+<table border="0" align="center">
 <tr>
 <td>
 <img src="https://github.com/user-attachments/assets/1f43e592-a560-4e46-90c9-03322d3e233d" width="90" height="90" />
@@ -54,8 +55,8 @@ NBMultiRag, permette di:
 <h1><b>NbMultiRag - a GPT all LOCAL</b></h1>
 </td>
 </tr>
-
 </table>  
+<p align="center">by <a href="https://nannibassetti.com" target="_blank">Nanni Bassetti</a></p>  
 
 # ENGLISH <a id='ENGLISH'></a>
 ### ---------------- Your data remains on your computer ---------------  
