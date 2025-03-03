@@ -43,7 +43,7 @@ NBMultiRag, permette di:
 
 ## ISTRUZIONI PER SISTEMI MACOS
 
-1) Se non presente installatare brew
+1) Se non presente installatare [Homebrew](https://brew.sh/).
 2) Se non presente installare Tkinter: ``` brew install python-tk ```
 3) Lanciare il file install-macos.sh
 3) Creare un workspace
@@ -102,7 +102,7 @@ NBMultiRag, allows you to:
 8) The program downloads the files to C:\Users\YOUR_USER_NAME\.cache\huggingface\hub: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
 
 ## INSTRUCTIONS FOR MACOS SYSTEMS
-1) If not present, install Homebrew.
+1) If not present, install [Homebrew](https://brew.sh/).
 2) If not present, install Tkinter:  ``` brew install python-tk ```
 1) Run the install-macos.sh file
 2) In the framework follow the prompts (e.g. download a template).
