@@ -38,11 +38,11 @@ NBMultiRag, permette di:
 7) CHATTARE
 8) Il programma scarica nella C:\Users\YOUR_USER_NAME\.cache\huggingface\hub i file: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
 
-## Per chi vuole usare Python:  
+## Lanciamo il programma:  
 1) crea la cartella nbmultirag
-2) copia tutto il contenuto di questo repository, eccetto il file ZIP che contiene il compilato.
+2) copia tutto il contenuto di questo repository.
 3) crea un enviroment Python: python -m venv nbmultirag
-4) Attivare l'enviroment (per Windows: nbmultirag/Scripts/activate)
+4) Attivare l'environment (per Windows: nbmultirag/Scripts/activate)
 5) pip install -r requirements
 6) streamlit run nbmultirag.py
 # ENGLISH <a id='ENGLISH'></a>
@@ -83,9 +83,9 @@ NBMultiRag, allows you to:
 7) CHAT
 8) The program downloads the files to C:\Users\YOUR_USER_NAME\.cache\huggingface\hub: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
 
-## For those who want to use Python:
+## How to run:
 1) create the nbmultirag folder
-2) copy all the contents of this repository, except the ZIP file that contains the compiled file.
+2) copy all the contents of this repository.
 3) create a Python environment: python -m venv nbmultirag
 4) Activate the environment (for Windows: nbmultirag/Scripts/activate)
 5) pip install -r requirements
