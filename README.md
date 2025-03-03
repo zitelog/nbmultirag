@@ -41,6 +41,18 @@ NBMultiRag, permette di:
 7) CHATTARE
 8) Il programma scarica nella C:\Users\YOUR_USER_NAME\.cache\huggingface\hub i file: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
 
+## ISTRUZIONI PER SISTEMI MACOS
+
+1) Se non presente installatare brew
+2) Se non presente installare Tkinter: ``` brew install python-tk ```
+3) Lanciare il file install-macos.sh
+3) Creare un workspace
+4) Scegliere un embedder (di default c'è bert-base-italian-uncased per l'Italiano e bert-base-uncased per l'Inglese.
+5) Aggiungere una cartella che contiene i documenti da indicizzare.
+6) Aggiornare l'indice.
+7) CHATTARE
+8) Il programma scarica nella C:\Users\YOUR_USER_NAME\.cache\huggingface\hub i file: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
+
 ## Lanciamo il programma:  
 1) crea la cartella nbmultirag
 2) copia tutto il contenuto di questo repository.
@@ -48,6 +60,8 @@ NBMultiRag, permette di:
 4) Attivare l'environment (per Windows: nbmultirag/Scripts/activate)
 5) pip install -r requirements
 6) streamlit run nbmultirag.py
+
+
 # ENGLISH <a id='ENGLISH'></a>
 <table border="0" align="center">
 <tr>
@@ -79,6 +93,18 @@ NBMultiRag, allows you to:
 ## INSTRUCTIONS FOR WINDOWS SYSTEMS
 
 1) Run the install.bat file
+2) In the framework follow the prompts (e.g. download a template).
+3) Create a workspace
+4) Choose an embedder (by default there is bert-base-italian-uncased for Italian and bert-base-uncased for English.
+5) Add a folder that contains the documents to be indexed.
+6) Update the index.
+7) CHAT
+8) The program downloads the files to C:\Users\YOUR_USER_NAME\.cache\huggingface\hub: models--bert-base-uncased, models--dbmdz--bert-base-italian-uncased, models--Salesforce--blip-image-captioning-base
+
+## INSTRUCTIONS FOR MACOS SYSTEMS
+1) If not present, install Homebrew.
+2) If not present, install Tkinter:  ``` brew install python-tk ```
+1) Run the install-macos.sh file
 2) In the framework follow the prompts (e.g. download a template).
 3) Create a workspace
 4) Choose an embedder (by default there is bert-base-italian-uncased for Italian and bert-base-uncased for English.
