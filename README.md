@@ -45,7 +45,7 @@ NBMultiRag, permette di:
 4) Attivare l'enviroment (per Windows: nbmultirag/Scripts/activate)
 5) pip install -r requirements
 6) streamlit run nbmultirag.py
-
+# ENGLISH <a id='ENGLISH'></a>
 <table border="0" align="center">
 <tr>
 <td>
@@ -58,7 +58,7 @@ NBMultiRag, permette di:
 </table>  
 <p align="center">by <a href="https://nannibassetti.com" target="_blank">Nanni Bassetti</a></p>  
 
-# ENGLISH <a id='ENGLISH'></a>
+
 ### ---------------- Your data remains on your computer ---------------  
 
 A framework in Italian and English, which allows you to chat with your documents in RAG, including multimedia (audio, video, images and OCR).
