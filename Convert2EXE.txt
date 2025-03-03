@@ -1,0 +1,1 @@
+pyinstaller --onefile --copy-metadata streamlit --collect-data streamlit --icon nbmultirag.ico launcher.py --clean
