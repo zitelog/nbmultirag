@@ -59,7 +59,7 @@ NBMultiRag, permette di:
 3) crea un enviroment Python: python -m venv nbmultirag
 4) Attivare l'environment:
 - per Windows: nbmultirag/Scripts/activate
-- per macOS: source ./nbmultirag/Scripts/activate
+- per macOS: source ./nbmultirag/bin/activate
 5) pip install -r requirements
 6) streamlit run nbmultirag.py
 
@@ -121,7 +121,7 @@ NBMultiRag, allows you to:
 3) create a Python environment: python -m venv nbmultirag
 4) Activate the environment:
   - for Windows: nbmultirag/Scripts/activate
-  - for macOS: source ./nbmultirag/Scripts/activate
+  - for macOS: source ./nbmultirag/bin/activate
 5) pip install -r requirements
 6) streamlit run nbmultirag.py
 
