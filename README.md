@@ -14,6 +14,7 @@
 
 [ITALIAN](#ITALIANO)  -  [ENGLISH](#ENGLISH)  
 
+Based on **PYTHON 3.12.4**   
 ###  ---------------- I tuoi dati rimangono sul tuo computer ---------------   
 <a name="ITALIANO"></a>  
 ## ITALIANO
