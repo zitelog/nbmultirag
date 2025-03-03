@@ -22,6 +22,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import tempfile
 from requests.exceptions import ConnectionError
 
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+torch.classes.__path__ = []
 # Aggiungi nella sidebar la scelta della lingua
 language = st.sidebar.radio("🌐 Scegli la lingua / Choose Language", ["Italian", "English"], index=0, horizontal=True)
 
@@ -140,7 +142,7 @@ if "default_system_prompt" not in st.session_state:
     """
    st.session_state.system_prompt = st.session_state.default_system_prompt
 # Caricamento modelli BERT
-#@st.cache_resource
+@st.cache_resource
 def load_models():
     try:
         tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -448,7 +450,7 @@ def main_ui():
         ws_manager = WorkspaceManager()
     # Selezione modello
 # Sostituisci la sezione UI con:
-        st.header(t("model_selection"))
+        #st.header(t("model_selection"))
         try:
             ollama_models = get_ollama_models()
             if not ollama_models:
@@ -483,9 +485,10 @@ def main_ui():
         # Selezione workspace
         current_ws = st.selectbox(t("activeworkspace"), ws_manager.workspaces)
 
+
         if current_ws:
            ws_config = load_workspace_config(current_ws)
-        
+
       
         # Configurazione workspace
         with st.expander(t("config_workspace")):
@@ -499,8 +502,7 @@ def main_ui():
                ws_config['temperature'] = st.slider("Temperature", 0.0, 1.0, ws_config['temperature'])
                ws_config['search_k'] = st.number_input(t("numberresult"), min_value=1, max_value=50, value=ws_config['search_k'])
                ws_config['num_relevant'] = st.number_input(t("numberrelevant"), min_value=1, max_value=10, value=ws_config['num_relevant'])
-
-            # Salvataggio configurazione
+             # Salvataggio configurazione
             if st.button(t("save_config")):
                 save_workspace_config(current_ws, ws_config)  # Usa la funzione esistente
                 st.success(t("savedconfig"))
@@ -532,7 +534,7 @@ def main_ui():
                st.session_state.messages.append({"role": "assistant", "content": message})
         
                st.success(t("processedfile"))
-               #st.rerun()  # opzionale, se vuoi aggiornare immediatamente l'interfaccia
+
         
             except Exception as e:
                 st.error(f"Errore caricamento file: {str(e)}")		
@@ -546,9 +548,8 @@ def main_ui():
             return path
         
 
-        
         input_dir = st.text_input(t("docpath"), 
-                                value=st.session_state.get("doc_path_input",  ws_config.get('doc_path', '') if current_ws else " "), 
+                                value=(ws_config['doc_path'] if current_ws else " "), 
                                 key="doc_path_display")
         if st.button(t("browse")):
             selected_path = get_folder_path()
